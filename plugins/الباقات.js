@@ -45,11 +45,11 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                             {
                                 name: 'single_select',
                                 buttonParamsJson: JSON.stringify({
-                                    title: '♪الــبــاقــات♪',
+                                    title: '♪ الــبــاقــات ♪',
                                     sections: [
                                         {
                                             title: 'مــرحـ🛡ـبــا بــك فـي سورس بويكا بـ🤖ـوت',
-                                            highlight_label: 'ســــورس مــادار🐢ــا',
+                                            highlight_label: 'ســــورس بــويــكــا',
                                             rows: [
                                                 {
                                                     header: '𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍 𝐈𝐒 𝐅𝐑𝐄𝐄',
