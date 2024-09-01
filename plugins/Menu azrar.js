@@ -130,10 +130,14 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                 {
               name: "quick_reply",
               buttonParamsJson: '{"display_text":"⌈🚀╎الاشــتــراكــات╎🚀⌋","id":".بريميم"}'
+                },
+                {
+              name: "quick_reply",
+              buttonParamsJson: '{"display_text":"⌈✅╎المطور╎✅⌋","id":".المطور"}'
                      },
                      {
                name: "cta_url",
-               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029VaXddtu0lwgiREisx82C","merchant_url":"https://whatsapp.com/channel/0029VaXddtu0lwgiREisx82C"}'
+               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029ValRCUIFi8xmK9xBOr0I","merchant_url":"https://whatsapp.com/channel/0029ValRCUIFi8xmK9xBOr0I"}'
                             }
                         ]
                     }
