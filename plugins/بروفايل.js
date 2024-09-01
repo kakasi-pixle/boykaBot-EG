@@ -2,7 +2,7 @@ import { createHash } from 'crypto'
 import PhoneNumber from 'awesome-phonenumber'
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix }) => {
-let pp = 'https://telegra.ph/file/e8b3219035e65f946fd20.jpg'
+let pp = 'https://telegra.ph/file/df906f69e9227d393d112.jpg'
 //const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
 let user = global.db.data.users[m.sender]
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0];
