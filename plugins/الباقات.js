@@ -25,7 +25,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0];
   await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
-  const harley = 'https://telegra.ph/file/f97d2943120c84579f236.png'
+  const harley = 'https://telegra.ph/file/6db5088492601b1bc7f7b.jpg'
   const mentionId = m.key.participant || m.key.remoteJid;
  
 conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `harley`}, body: { text: `
@@ -48,7 +48,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                     title: '♪الــبــاقــات♪',
                                     sections: [
                                         {
-                                            title: 'مــرحـ🛡ـبــا بــك فـي سورس مــادار🐢ــا بـ🤖ـوت',
+                                            title: 'مــرحـ🛡ـبــا بــك فـي سورس بويكا بـ🤖ـوت',
                                             highlight_label: 'ســــورس مــادار🐢ــا',
                                             rows: [
                                                 {
@@ -87,7 +87,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                      },
                      {
                name: "cta_url",
-               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029VagvImBA2pLLSI7lLE1B","merchant_url":"https://whatsapp.com/channel/0029VaXddtu0lwgiREisx82C"}'
+               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029ValRCUIFi8xmK9xBOr0I","merchant_url":"https://whatsapp.com/channel/0029ValRCUIFi8xmK9xBOr0I"}'
                             }
                         ]
                     }
