@@ -119,7 +119,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                                     header: 'الــقـ🔍ـســم �لــحــاديــة عــشــر',
                                                     title: 'استدعاء_قسم_ابحث #البحث',
                                                     description: '',
-                                                    id: '.ق10'
+                                                    id: '.ق11'
                                                }
                                             ]
                                         }
