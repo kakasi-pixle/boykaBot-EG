@@ -100,7 +100,7 @@ let str = `⎔⋅• ━ ╼╃ ⌬〔﷽〕⌬ ╄╾ ━ •⋅⎔
         conn.reply(m.chat, '[❗خطاء❗]', m)
     }
 }
-handler.command = /^(ق 7|قسم الذكاء|ق6|ق_7)$/i;
+handler.command = /^(ق 7|قسم الذكاء|ق7|ق_7)$/i;
 handler.exp = 20
 handler.fail = null
 export default handler
