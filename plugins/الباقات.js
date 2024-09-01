@@ -31,7 +31,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `harley`}, body: { text: `
 *مــرحــبــا بــك/ي* @${mentionId.split('@')[0]}
 ╗──────¤
-> ⌈🚀╎سورس مادارا╎🚀⌋
+> ⌈🚀╎سورس بويكا╎🚀⌋
 > •اختار احدي الباقات في الاسفل
 > •اسعار الباقات تختلف
 > •يمكنك اختيار الباقة المناسبة لك
