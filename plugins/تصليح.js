@@ -8,7 +8,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     return conn.sendMessage(m.chat, {text: '*[❗] استخدم هذا الأمر مباشرة في العدد الرئيسي من الروبوت*'}, {quoted: m});
   }
   const chatId = m.isGroup ? [m.chat, m.sender] : [m.sender];
-  const sessionPath = 'MysticSession';
+  const sessionPath = 'GataBotSession';
   try {
     const files = await fs.readdir(sessionPath);
     let filesDeleted = 0;
