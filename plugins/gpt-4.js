@@ -23,7 +23,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
       [['الــمــطـور', `.المطور`]], 
       null, 
       [['قــنـاة الــبــوت', `https://whatsapp.com/channel/0029ValRCUIFi8xmK9xBOr0I`]], 
-      m
+      null, null, fkontak
     );
   } catch (error) {
     console.error(error);
