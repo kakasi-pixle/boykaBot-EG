@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 import moment from 'moment-timezone'
 import axios from 'axios'
-import fs from 'fs'
+import fs from 'ar'
 const { generateWAMessageFromContent, prepareWAMessageMedia, proto }  = (await import(global.baileys))
 
 let handler = m => m
