@@ -1,32 +1,38 @@
 import fetch from 'node-fetch';
 
-let handler = async (m, { conn, text }) => {
+let handler = async (m, { conn, text, args, usedPrefix, command }) => {
+  try {
+    if (!text) throw 'uhm.. what do you want to say?';
+    await m.react('🤖');
 
-    if (!text) throw "*يرجى كتابة نص للسؤال، على سبيل المثال: 'ما هو آخر الأنبياء؟'*";
+    const prompt = encodeURIComponent(text);
+    let userid = conn.getName(m.sender) || "default"
+    let apiurl = `https://api.guruapi.tech/ai/gpt4?username=${userid}&query=hii${prompt}`;
 
-    try {
-        await conn.sendMessage(m.chat, { text: "*انتظر لحظة بينما أفكر في إجابتك... 🧠*" }, { quoted: m });
+    const result = await fetch(apiurl);
+    const response = await result.json();
+    
+    if (!response.msg) throw 'No result found';
 
-        const kurosakiApi = `https://api-kurosaki-dev0.osc-fr1.scalingo.io/api/ai/gpt4?q=${encodeURIComponent(text)}`;
-        var response = await fetch(kurosakiApi);
-        var res = await response.json();
-
-        if (res.status) {
-            if (res.kurosaki) {
-                await conn.sendFile(m.chat, 'https://telegra.ph/file/895df0945dc4deaa47ac9.jpg', 'image.png', res.kurosaki, m, { caption: res.kurosaki });
-            } else {
-                await conn.sendMessage(m.chat, "لم يتم العثور على نتيجة مناسبة لإجابتك. حاول مرة أخرى.", { quoted: m });
-            }
-        } else {
-            await conn.sendMessage(m.chat, "حدث خطأ أثناء محاولة الحصول على الإجابة. الرجاء المحاولة لاحقاً.", { quoted: m });
-        }
-    } catch (error) {
-        console.error(error);
-        await conn.sendMessage(m.chat, "فشل، الرجاء المحاولة في وقت لاحق.", { quoted: m });
-    }
+    const replyText = response.msg;
+    await conn.sendButton(
+      m.chat, 
+      replyText, 
+      author, 
+      'https://telegra.ph/file/c3f9e4124de1f31c1c6ae.jpg', 
+      [['Script', `.sc`]], 
+      null, 
+      [['Follow Me', `https://github.com/Guru322`]], 
+      m
+    );
+  } catch (error) {
+    console.error(error);
+    m.reply('Oops! Something went wrong. We are trying hard to fix it ASAP.');
+  }
 };
 
-handler.command = ['مادارا', 'بوت'];
-handler.tags = ['ai'];
-handler.help = ['gpt4 <النص> - للحصول على إجابة باستخدام GPT-4'];
+handler.help = ['gpt4 <text>'];
+handler.tags = ['tools'];
+handler.command = /^(بوت)$/i;
+
 export default handler;
