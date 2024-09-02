@@ -19,15 +19,15 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
       m.chat, 
       replyText, 
       author, 
-      'https://telegra.ph/file/c3f9e4124de1f31c1c6ae.jpg', 
-      [['Script', `.sc`]], 
+      'https://telegra.ph/file/df906f69e9227d393d112.jpg', 
+      [['الــمــطـور', `.المطور`]], 
       null, 
-      [['Follow Me', `https://github.com/Guru322`]], 
+      [['قــنـاة الــبــوت', `https://whatsapp.com/channel/0029ValRCUIFi8xmK9xBOr0I`]], 
       m
     );
   } catch (error) {
     console.error(error);
-    m.reply('Oops! Something went wrong. We are trying hard to fix it ASAP.');
+    m.reply('*مرحبا ضع سؤالك يا اخي 🤡*');
   }
 };
 
