@@ -44,7 +44,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
 > ⏳␥الـتـشـغـيـل↞﴿ ${uptime} ﴾
 > 💧␥عـدد الـمـسـتـخـدمـين↞﴿ 20 ﴾
 *⎔⋅ ╼╃ ⊰ •﹝❄️﹞• ⊱ ╄╾ ⋅⎔*
-> © 𝐇𝐚𝐫𝐥𝐞𝐲 𝐥𝐢𝐠𝐡𝐭 2024
+> © 𝐀𝐑𝐀𝐀𝐁 𝐙𝐀𝐂𝐊 2024
 *⎔⋅ ╼╃ ⊰ •﹝❄️﹞• ⊱ ╄╾ ⋅⎔*`,subtitle: "HARLEY",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: harley } }, { upload: conn.waUploadToServer }, {quoted: m}))},
                     contextInfo: {
                         mentionedJid: [m.sender],
