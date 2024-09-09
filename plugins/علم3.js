@@ -50,7 +50,7 @@ let handler = async (_0x3c596a, {
 };
 
 function _0x4b4d() {
-    const _0x5adff3 = [' دولار\x0a*『𝐌𝐀𝐃𝐀𝐑𝐀↳🐢↲𝐁𝐎𝐓』*     ', '1326522zrrUIZ', 'name', '9081060EKrvDl', 'command', '21ggFzmZ', 'json', 'tebakbendera', 'reply', '3cpoRiU', '542844GTeBIP', '*في سؤال هنا يا ياورع 🐦‍⬛*', 'guessflag', 'floor', '9BzZBQY', '12820qPGAli', 'length', '4663832lagByn', 'الوقت خلص!\x0aالاجابه هي *', 'game', '908765sOMowA', '*\x0a  ❐↞┇الـوقـت⏳↞ *', 'random', 'toUpperCase', 'sendFile', '25029840HlpAEC', '* ثانيه\x0a  استخدم ', '285FAvvgx', 'tags', 'trim', 'chat'];
+    const _0x5adff3 = [' دولار\x0a*『𝐁𝐎𝐀𝐘𝐊𝐀﹝❄️﹞𝐁𝐎𝐓』*     ', '1326522zrrUIZ', 'name', '9081060EKrvDl', 'command', '21ggFzmZ', 'json', 'tebakbendera', 'reply', '3cpoRiU', '542844GTeBIP', '*في سؤال هنا يا ياورع 🐦‍⬛*', 'guessflag', 'floor', '9BzZBQY', '12820qPGAli', 'length', '4663832lagByn', 'الوقت خلص!\x0aالاجابه هي *', 'game', '908765sOMowA', '*\x0a  ❐↞┇الـوقـت⏳↞ *', 'random', 'toUpperCase', 'sendFile', '25029840HlpAEC', '* ثانيه\x0a  استخدم ', '285FAvvgx', 'tags', 'trim', 'chat'];
     _0x4b4d = function () {
         return _0x5adff3;
     };
