@@ -9,7 +9,7 @@ const handler = async (m, {conn, text, isMods, isOwner, isPrems}) => {
     const [_, code] = link.match(linkRegex) || [];
     if ( isPrems || isMods || isOwner || m.fromMe) {
       const res = await conn.groupAcceptInvite(code);
-      await conn.sendMessage(m.chat, {text: '*[ ✔️ ] تم الانضمام يا سيدي زاك*'}, {quoted: m})
+      await conn.sendMessage(m.chat, {text: '*[ ✔️ ] تم الانضمام يا سيدي هارلي*'}, {quoted: m})
       enviando = false 
     } else {
       conn.sendMessage(m.chat, {text: '*[❗] تم الارسال الي المطور انتظر حتي يتم الموافقة علي مجموعتك*\n\nهناك احتمالات ان لا يتم الموفقه علي المجموعه\nلقد دفعت الكثير من العملات لكن سوف يتم التحقق الاول من مجموعتك\n*'}, {quoted: m});
