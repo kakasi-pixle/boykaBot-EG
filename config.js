@@ -13,7 +13,7 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["972546887176", '𝐀𝐑𝐀𝐀𝐁 𝐙𝐀𝐂𝐊', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+["2001550680822", 'المالك_المطور', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
 ]
 
 global.mods = []
@@ -115,9 +115,9 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["972546887176", '𝐀𝐑𝐀𝐀𝐁 𝐙𝐀𝐂𝐊', 1], 
-["972546887176", '𝐀𝐑𝐀𝐀𝐁 𝐙𝐀𝐂𝐊', 1],  
-["972546887176", '𝐀𝐑𝐀𝐀𝐁 𝐙𝐀𝐂𝐊', 1]]
+["2001550680822", 'shawrma ', 1], 
+["2001550680822", 'shawrma', 1],  
+["2001550680822", 'shawrma', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -125,8 +125,8 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = `𝐀𝐑𝐀𝐀𝐁 𝐙𝐀𝐂𝐊`
-global.author = `𝐁𝐎𝐀𝐘𝐊𝐀﹝❄️﹞𝐁𝐎𝐓`
+global.packname = `shawrma`
+global.author = `shawrma﹝❄️﹞bot`
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -134,7 +134,7 @@ global.author = `𝐁𝐎𝐀𝐘𝐊𝐀﹝❄️﹞𝐁𝐎𝐓`
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "3.0 (Beta)"
-global.gt = "𝐀𝐑𝐀𝐀𝐁 𝐙𝐀𝐂𝐊"
+global.gt = "shawrma "
 
 fetchDataAndProcess().catch(error => console.error('Ocurrió un error:', error))
 
@@ -162,9 +162,9 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝐁𝐎𝐀𝐘𝐊𝐀 | 𝐙𝐀𝐂𝐊"
-global.igfg = "𝐁𝐎𝐀𝐘𝐊𝐀 | 𝐙𝐀𝐂𝐊"
-global.nomorown = "972546887176"
+global.wm = "shawrma"
+global.igfg = "shawrma "
+global.nomorown = "201550680822"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -441,7 +441,7 @@ global.tk = accounts.tiktok
 global.ths = accounts.threads
 global.paypal = accounts.paypal
 global.asistencia = others.assistance_num
-global.bot = 'wa.me/50238024328'
+global.bot = 'https://wa.me/201550680822'
 global.cuentas = accounts.all
 
 global.canal1 = channels.channel1
