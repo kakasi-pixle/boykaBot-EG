@@ -24,7 +24,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     let readMore = more.repeat(850);
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0];
   await conn.sendMessage(m.chat, { react: { text: '🤖', key: m.key } })
-  const harley = 'https://telegra.ph/file/c6931834b0cff16b54135.jpg'
+  const harley = 'https://i.imgur.com/yTymoYW.jpeg'
  
 conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `harley`}, body: { text: `*• ──╾⊱﹝⚜️﹞⊰╼── •*
 *مــرحــبــا بــك/ي* ${taguser}
