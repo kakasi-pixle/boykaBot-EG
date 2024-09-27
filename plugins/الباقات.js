@@ -24,7 +24,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     let readMore = more.repeat(850);
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0];
-  await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
+  await conn.sendMessage(m.chat, { react: { text: '🪐', key: m.key } })
   const harley = 'https://i.imgur.com/3vGxxsm.jpeg'
   const mentionId = m.key.participant || m.key.remoteJid;
  
@@ -44,11 +44,11 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                             {
                                 name: 'single_select',
                                 buttonParamsJson: JSON.stringify({
-                                    title: '♪ الــبــاقــات ♪',
+                                    title: '♪ الــالعاب♪',
                                     sections: [
                                         {
-                                            title: 'مــرحـ🛡ـبــا بــك فـي سورس بويكا بـ🤖ـوت',
-                                            highlight_label: 'ســــورس بــويــكــا',
+                                            title: 'مــرحـ🛡ـبــا بــك فـي قائمه الالعاب🪐',
+                                            highlight_label: 'واع اوف اح لسه بعمل',
                                             rows: [
                                                 {
                                                     header: 'بعدين عشان كسلت',
