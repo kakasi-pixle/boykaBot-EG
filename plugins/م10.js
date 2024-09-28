@@ -25,11 +25,10 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `⎔⋅• ━ ╼╃ ⌬〔﷽〕⌬ ╄╾ ━ •⋅⎔
-> shawarma↳🐢↲bot
+> shawarma↳🪐↲bot
 > 〔سكريبت بوت جاهز┊ ˼‏ 👨🏻‍💻˹ 〕↶ 
-*⌬∙ • ──╾⊱﹝⚜️﹞⊰╼── • ∙⌬*
-           
-بتحسب هديهولك يحوب؟ 🗿
+*⌬∙ • ──╾⊱﹝🪐﹞⊰╼── • ∙⌬*
+بتحسب هديهولك🗿
 `.trim()
    const _0x3c7cab = _0x5a1d;
 
@@ -44,7 +43,7 @@ let str = `⎔⋅• ━ ╼╃ ⌬〔﷽〕⌬ ╄╾ ━ •⋅⎔
         }
 
         function _0x42ca() {
-            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', '𝐇𝐀𝐑𝐋𝐄𝐘 ⚡ 𝐂𝐎𝐃𝐈𝐍𝐆', '406070MLYaeB', 'https://whatsapp.com/channel/0029VagvImBA2pLLSI7lLE1B', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
+            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', 'shawarma 🪐 yahob', '406070MLYaeB', 'https://whatsapp.com/channel/0029VanZjKLKGGGQNpGyhs0w', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
             _0x42ca = function () {
                 return _0xe1e20e;
             };
